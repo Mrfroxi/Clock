@@ -1,0 +1,80 @@
+:root{
+    --main-color: #ff1a1a;
+    --light: rgba(255, 253, 79, 0.8);
+}
+
+*{
+    margin: 0;
+	padding: 0;
+}
+body{
+    background-color: var(--main-color);
+}
+#mainDiv{
+    margin: 10% auto;
+    width: 65vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#Number{
+    background-color: var(--light);
+    width: 65vw;
+    height: 40vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 120px;
+    box-shadow:0 0 2px #ff1a1a inset, 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+#clock{
+    background-color: thistle;
+    width: 55vw;
+    height: 30vh;
+    margin: 0 auto;
+}
+.selected{
+    display: block;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 5px 4px #ff3333;
+    box-shadow: inset 0 0 3px 4px #ff3333; 
+}
+
+#h , #m , #s{
+    width: 35%;
+    height: 75%;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dote{
+   
+    height: 40%;
+    width: 6%;
+    margin: 0 auto;
+}
+#fh1 , #fh2,#fm1 ,#fm2,#fs2,#fs1{
+    display: grid;
+    margin-left:15px ;
+    background-color: rgb(255, 255, 255);
+    width: 45%;
+    height: 100%   
+}
+
+span{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 3%;
+    height: 2%;
+    display: block;
+    border-radius: 50%;
+}
