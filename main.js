@@ -14,7 +14,7 @@ const numbers = {
 const formatDate = num => {
     return num<10 ? ['0' ,num.toString()] : num.toString().split('');
 }
-//Возвращает массив чисел 
+//{hour: Array(2), minet: Array(2), second: Array(2)}
 let datetime = () => {
 const now = new Date();
 const hour =formatDate(now.getHours());
@@ -22,10 +22,5 @@ const  minet = formatDate(now.getMinutes());
  const second =formatDate( now.getSeconds());
 return{ hour,minet,second}
 }
-
-
-
-console.log(datetime())
-
-
-document.querySelector('span');
+let fhs1 = document.getElementById('fh1')
+console.log(fhs1.childNodes[2]);
