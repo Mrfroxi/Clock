@@ -7,34 +7,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id='mainDiv'>  
-        <div id='Number'>
-        <div id='h'>
-            <div id='fh1'>
-            <div id='fh2'>
-        </div>
-        <div class='dote' >
-            <div class="selected"></div>
-			<div class="selected"></div>
-        </div>
-        <div id='m'>
-            <div id=fm1>
-            </div>
-            <div id=fm2>
-            </div>
-        </div>
-        <div class='dote' >
-            <div class="selected"></div>
-			<div class="selected"></div>
-        </div>
-        <div id='s'>
-            <div id='fs1'> 
-            </div>
-            <div id='fs2'>
-        </div>    
-        </div>
-    </div>
-    <div id='clock'> </div>
+   
+	<div class="timer row row_fw-w" id="timer">
+		<div id="h">
+		</div>
+		<div class="dt d1">
+			<span class="selected"></span>
+			<span class="selected"></span>
+		</div>
+		<div id="m">
+		</div>
+		<div class="dt d2">
+			<span class="selected"></span>
+			<span class="selected"></span>
+		</div>
+		<div id="s">
+		</div>
+	</div>
+	
+	<div class="row row_fw-w row_js-c row_ai-c time-box">
+		<div class="time-line row row_ai-c" id='th'>
+			<div class="line"></div>
+		</div>
+		<div class="time-line row row_ai-c" id='tm'>
+			<div class="line"></div>
+		</div>
+		<div class="time-line row row_ai-c" id='ts'>
+			<div class="line"></div>
+		</div>
+	</div>
+
 <script src='main.js'></script>
 </body>
 </html>

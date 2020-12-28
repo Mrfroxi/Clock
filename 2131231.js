@@ -67,7 +67,7 @@ const byId = id => document.getElementById(id);
 		const fillBlock = (id, numberArr) => {
 			const children = byId(id).children;
 			for (let i = 0; i < children.length; i++) {
-			fillNumber(children[i], numbers[numberArr[i]]);
+			console.log(	fillNumber(children[i], numbers[numberArr[i]]));
 			}
 		}
 
